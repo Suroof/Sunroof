@@ -1,0 +1,78 @@
+package ${package.ServiceImpl};
+
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import ${package.Entity}.${entity};
+import com.project.template.exception.CustomException;
+import ${package.Mapper}.${table.mapperName};
+    #if(${table.serviceInterface})
+    import ${package.Service}.${table.serviceName};
+    #end
+import org.apache.commons.lang3.ObjectUtils;
+import org.springframework.stereotype.Service;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * $!{table.comment} 服务实现类
+ * </p>
+ *
+ * @author ${author}
+ *
+ */
+@Service
+#if(${kotlin})
+open class ${table.serviceImplName} : ${superServiceImplClass}<${table.mapperName}, ${entity}>()#if(${table.serviceInterface}), ${table.serviceName}#end {
+
+        }
+#else
+        public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}>#if(${table.serviceInterface}) implements ${table.serviceName}#end{
+
+        @Override
+        public boolean save(${entity} entity) {
+        check(entity);
+        return super.save(entity);
+        }
+
+        @Override
+        public boolean updateById(${entity} entity) {
+        check(entity);
+        return super.updateById(entity);
+        }
+
+        private void check(${entity} entity) {
+//        LambdaQueryWrapper<${entity}> wrapper = new LambdaQueryWrapper<>();
+//        wrapper.eq(${entity}::getName, entity.getName());
+//        wrapper.ne(entity.getId() != null, ${entity}::getId, entity.getId());
+//        if (count(wrapper) > 0) {
+//            throw new CustomException("名称重复");
+//        }
+        }
+
+
+        @Override
+        public boolean removeByIds(Collection<?> list) {
+        List<Integer> integerList = (List<Integer>) list;
+//        list(new LambdaQueryWrapper<${entity}>().in(${entity}::getId, integerList)).forEach(test -> {
+//            if (true) {
+//                throw new CustomException("删除失败");
+//            }
+//        });
+        return super.removeByIds(integerList);
+        }
+
+        @Override
+        public Page<${entity}> page(Map<String, Object> query, Integer pageNum, Integer pageSize) {
+        LambdaQueryWrapper<${entity}> wrapper = new LambdaQueryWrapper<>();
+        wrapper.orderByDesc(${entity}::getId);
+    ##        if (ObjectUtils.isNotEmpty(query.get("name"))) {
+    ##            wrapper.like(${entity}::getName, query.get("name"));
+    ##        }
+        return page(new Page<>(pageNum, pageSize), wrapper);
+        }
+        }
+#end
