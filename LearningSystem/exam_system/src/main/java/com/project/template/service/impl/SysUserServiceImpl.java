@@ -17,7 +17,7 @@ import com.project.template.utils.JwtUtils;
 import com.project.template.utils.RoleMenuUtils;
 import com.project.template.utils.UserThreadLocal;
 import com.project.template.utils.Utils;
-import com.project.template.vo.SysUserLoginVO;
+import com.project.template.interceptor.vo.SysUserLoginVO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

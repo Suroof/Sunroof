@@ -53,8 +53,8 @@
             </div>
             <div class="container-fluid">
                 <el-footer class="footer">
-                    <p>版权所有，翻版必究</p>
-                    <p>©2024 B站：程序员瑞哥 </p>
+                    <p>Luv</p>
+                    <p>Summer</p>
                 </el-footer>
             </div>
         </el-container>

@@ -13,10 +13,6 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 功能：
- * 作者：程序员瑞哥
- */
 @RestController
 @RequestMapping("/banner")
 public class BannerController {

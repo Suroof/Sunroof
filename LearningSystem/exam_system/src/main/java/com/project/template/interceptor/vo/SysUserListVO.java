@@ -1,4 +1,4 @@
-package com.project.template.vo;
+package com.project.template.interceptor.vo;
 
 import com.project.template.enums.StateType;
 import io.swagger.annotations.ApiModelProperty;

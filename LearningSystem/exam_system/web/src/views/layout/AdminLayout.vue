@@ -181,4 +181,10 @@ export default {
 .pb10px {
   padding-bottom: 10px;
 }
+.el-main{
+  background-image: url('../../assets/Christmas.jpg');
+  background-size: cover; /* 使背景图片覆盖整个容器 */
+  background-position: center; /* 将背景图片居中 */
+  /* 可以根据需要添加其他样式，如padding、margin等 */
+}
 </style>

@@ -1,9 +1,7 @@
-package com.project.template.vo;
+package com.project.template.interceptor.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-
-import java.util.List;
 
 @Data
 public class SysUserLoginVO {

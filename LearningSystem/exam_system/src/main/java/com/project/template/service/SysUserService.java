@@ -5,7 +5,7 @@ import com.project.template.dto.UserLoginDTO;
 import com.project.template.dto.UserRegisterDTO;
 import com.project.template.entity.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.project.template.vo.SysUserLoginVO;
+import com.project.template.interceptor.vo.SysUserLoginVO;
 
 /**
  * <p>

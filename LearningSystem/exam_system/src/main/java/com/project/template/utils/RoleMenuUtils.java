@@ -1,7 +1,7 @@
 package com.project.template.utils;
 
 import com.project.template.enums.RoleType;
-import com.project.template.vo.SysMenuVO;
+import com.project.template.interceptor.vo.SysMenuVO;
 
 import java.util.Arrays;
 

@@ -37,7 +37,5 @@ const tools = {
     isAdmin(){
       return   tools.getUserInfo().roleType==='ADMIN'
     },
-
 }
-
 export  default tools

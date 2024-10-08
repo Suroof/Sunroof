@@ -1,4 +1,4 @@
-package com.project.template.vo;
+package com.project.template.interceptor.vo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModelProperty;
