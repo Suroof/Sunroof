@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <RCC>
     <qresource prefix="/Qss">
         <file>C:/Users/Administrator/Pictures/Screenshot_2024-07-29T211848.png</file>
@@ -6,3 +7,13 @@
         <file>style.qss</file>
     </qresource>
 </RCC>
+=======
+<RCC>
+    <qresource prefix="/Qss">
+        <file>C:/Users/Administrator/Pictures/Screenshot_2024-07-29T211848.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>style.qss</file>
+    </qresource>
+</RCC>
+>>>>>>> f8f427154cd2cb28f912abfce2b95a1a3b0fc219
