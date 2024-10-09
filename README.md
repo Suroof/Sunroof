@@ -4,7 +4,6 @@ git commit -m "first commit"
 git remote add origin git@github.com:Suroof/Sunroof.git
 git push -u origin master
 
-
 git pull origin main
 1
 这个命令从名为 origin 的远程的 main 分支获取更新并将它们合并到你当前的分支。如果存在任何冲突，你需要手动解决它们。
