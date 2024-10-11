@@ -3,6 +3,7 @@ git add .
 git commit -m "first commit"
 git remote add origin git@github.com:Suroof/Sunroof.git
 git push -u origin master
+git checkout -b 分支名
 
 git pull origin main
 1
