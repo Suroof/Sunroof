@@ -24,3 +24,6 @@ git commit -m "Merge branch 'main' of https://github.com/....git"
 git push -u origin main
 1
 -u 标志为你的本地分支设置了上游引用，意味着将来你可以简单地调用 git push 或 git pull 而不需要指定分支。
+![Uploading 13352779350089734.jpeg…]()
+
+
