@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/open.png</file>
+        <file>images/save.png</file>
+        <file>images/编辑.png</file>
+        <file>images/复制.png</file>
+        <file>images/粘贴.png</file>
+        <file>images/剪切.png</file>
+        <file>images/新建目录.png</file>
+        <file>images/ic_清空.png</file>
+        <file>images/粗体.png</file>
+        <file>images/下划线.png</file>
+        <file>images/斜体.png</file>
+        <file>images/颜色.png</file>
+        <file>images/撤销.png</file>
+        <file>images/恢复.png</file>
+        <file>images/R-C.jpg</file>
+        <file>images/OIP-C.jfif</file>
+        <file>images/3状态栏.png</file>
+        <file>images/24gf-lookup2.png</file>
+        <file>images/工具栏.png</file>
+        <file>images/数据恢复.png</file>
+        <file>images/替换.png</file>
+        <file>images/显示行号.png</file>
+        <file>images/自动换行.png</file>
+    </qresource>
+</RCC>

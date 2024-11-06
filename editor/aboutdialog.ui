@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>715</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>0</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:50px;</string>
+   </property>
+   <property name="text">
+    <string>文本编辑器</string>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>100</y>
+     <width>111</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开发者:石润峰</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>150</y>
+     <width>181</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>学号：2022414040131</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>200</y>
+     <width>231</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>email：2663159189@qq.com</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>221</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-image: url(:/images/OIP-C.jfif);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
