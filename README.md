@@ -1,31 +1,8 @@
-git init
-git add . 
-git commit -m "first commit"
-git remote add origin git@github.com:Suroof/Sunroof.git
-git push -u origin master
-git checkout -b 分支名
-git branch //查看当前分支
-git pull origin main
-1
-这个命令从名为 origin 的远程的 main 分支获取更新并将它们合并到你当前的分支。如果存在任何冲突，你需要手动解决它们。
-解决冲突:
-如果拉取操作导致冲突，Git 会告诉你哪些文件有冲突。你必须打开这些文件并进行必要的更改来解决冲突。编辑文件后，需要将它们重新添加到索引中：
-
-git add <文件名>
-1
-对所有有冲突的文件重复此操作。
-提交合并:
-如果拉取触发了一次合并并且需要解决冲突，你需要提交合并。如果自动合并成功而没有冲突，Git 会自动进行提交。如果你解决了冲突，那么在添加了解决后的文件后，进行提交：
-
-git commit -m "Merge branch 'main' of https://github.com/....git"
-1
-推送你的更改:
-一旦你的本地分支是最新的并且任何冲突都已解决，你就可以再次尝试推送：
-
-git push -u origin main
-1
--u 标志为你的本地分支设置了上游引用，意味着将来你可以简单地调用 git push 或 git pull 而不需要指定分支。
-
-![SZA](https://github.com/user-attachments/assets/509388b2-caf6-49a7-8fa8-32c1ed7e6af6)
-
-
+智能点餐系统开发(2024.010-2024.11)
+技术栈:Java、Spring Boot、MySQL、Vue.js、Redis、WebSocket
+后端开发:独立完成订单管理、用户登录和实时状态推送模块，优化接口响应速度至200ms以内。
+前端开发:采用Vue框架进行 点餐页面的开发与调试，优化用户交互体验,采用懒加载和使用Service Workers缓存静态资源，页面加载时间缩短约20%。
+性能优化:使用 Redis缓存高频数据，减少数据库访问，整体系统性能提升约20%。
+系统设计:设计数据库结构，确保模块扩展性和数据一致性。
+前后端协作: 通过 RESTful API 优化了数据传输效率，显著提升了系统的响应速度。 交互引用 WebSocket 用于订单实时推送，提升用户互动体验。![f259f9da98da4ab65c8a2a6d3c9a6e8](https://github.com/user-attachments/assets/e36f52c6-cdbf-431e-8be2-69731074c46a)
+![ecedfd527d1c07613707a87f0d35659](https://github.com/user-attachments/assets/ca4f1c97-b0ac-4c94-9ec5-236845c5d5a4)
