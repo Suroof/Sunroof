@@ -1,0 +1,11 @@
+release/calculatorcore.o
+release/historypanel.o
+release/main.o
+release/mainwindow.o
+release/settingsmanager.o
+release/unitconverter.o
+release/qrc_resources.o
+release/moc_historypanel.o
+release/moc_mainwindow.o
+release/moc_settingsmanager.o
+release/moc_unitconverter.o

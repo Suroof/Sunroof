@@ -1,0 +1,11 @@
+debug/calculatorcore.o
+debug/historypanel.o
+debug/main.o
+debug/mainwindow.o
+debug/settingsmanager.o
+debug/unitconverter.o
+debug/qrc_resources.o
+debug/moc_historypanel.o
+debug/moc_mainwindow.o
+debug/moc_settingsmanager.o
+debug/moc_unitconverter.o

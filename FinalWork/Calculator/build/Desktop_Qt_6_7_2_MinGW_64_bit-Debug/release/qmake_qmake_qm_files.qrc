@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="i18n">
+<file alias="calculator_zh_CN.qm">D:/学习资料/QtProject/大作业/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/release/calculator_zh_CN.qm</file>
+<file alias="calculator_en_US.qm">D:/学习资料/QtProject/大作业/Calculator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/release/calculator_en_US.qm</file>
+</qresource>
+</RCC>
